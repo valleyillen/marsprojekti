@@ -56,3 +56,26 @@ body {
   width: 500px;
 
 }
+
+.fotosmall {
+  width: 300px;
+}
+
+.alaotsikko {
+  color:rgb(24, 11, 56);
+  font-family: "Oswald";
+  font-size: 24px;
+  text-decoration: none;
+  margin: 8px;
+
+}
+
+.alaotsikonalaotsikko {
+  color:rgb(24, 11, 56);
+  font-family: "Poppins";
+  font-size: 16px;
+  text-decoration: none;
+  margin: 12px;
+
+
+}
