@@ -1,6 +1,8 @@
 body {
   font-family: "Poppins";
-  background-color: rgb(240, 241, 255);
+  background: rgb(204,246,255);
+background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63%, rgba(24,11,56,1) 85%);
+  margin: 10px;
 }
 
 
@@ -17,7 +19,7 @@ body {
   right: 0;
   z-index: 100;
 
-  background-color: rgb(24, 11, 56);
+  background-color: #180b38;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: black;
@@ -38,6 +40,15 @@ body {
 
 .sivu-otsikko {
   margin-top: 70px;
+  color: white;
+}
+
+.sivu-kuvaus {
+  color: white;
+}
+
+.sivuperseteksti {
+  color: white;
 }
 
 .linkki-teksti {
@@ -60,23 +71,35 @@ body {
 .fotosmall {
   width: 300px;
   height: 300px;
+  margin: 10px;
 }
 
 .alaotsikko {
-  color:rgb(24, 11, 56);
+  color:rgb(0, 0, 0);
   font-family: "Oswald";
   font-size: 24px;
   text-decoration: none;
-  margin: 8px;
+  margin: 10px 0 0 10px;
 
 }
 
 .alaotsikonalaotsikko {
-  color:rgb(24, 11, 56);
+  color:rgb(0, 0, 0);
   font-family: "Poppins";
   font-size: 16px;
   text-decoration: none;
-  margin: 12px;
+  margin: 10px;
 
 
+}
+
+.pieniteksti {
+  margin: 10px;
+}
+
+.textbox {
+  background-color: rgba(204,246,255,1);
+  padding: 2px;
+  border-radius: 15px;
+  margin: 20px 0 0 0;
 }
