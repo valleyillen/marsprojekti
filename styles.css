@@ -1,0 +1,58 @@
+body {
+  font-family: "Poppins";
+  background-color: rgb(240, 241, 255);
+}
+
+
+.navigaatio {
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: rgb(24, 11, 56);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.vasen-puoli {
+  display: flex;
+  align-items: center;
+}
+
+.oikea-puoli {
+  width: 150px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.sivu-otsikko {
+  margin-top: 70px;
+}
+
+.linkki-teksti {
+  color: rgb(225, 226, 255);
+  font-family: "Oswald";
+  font-size: 18px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.linkki-teksti:hover {
+  text-decoration: underline;
+}
+
+.foto {
+  width: 500px;
+
+}
