@@ -103,3 +103,21 @@ background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63
   border-radius: 15px;
   margin: 20px 0 0 0;
 }
+
+.pippeli-teksti {
+  color:rgb(0, 0, 0);
+  font-family: "Poppins";
+  font-size: 18px;
+  text-decoration: none;
+  margin: 10px;
+  display: block;
+}
+
+.pippeli-teksti:hover {
+  text-decoration: underline;
+}
+
+.pippeli-teksti:active {
+  text-decoration: underline;
+  color:rgb(65, 65, 65);
+}
