@@ -20,9 +20,6 @@ background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63
   z-index: 100;
 
   background-color: #180b38;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
 }
 
 .vasen-puoli {
