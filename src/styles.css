@@ -62,7 +62,7 @@ background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63
 
 .foto {
   width: 500px;
-
+  margin: 10px;
 }
 
 .fotosmall {
@@ -117,4 +117,13 @@ background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63
 .pippeli-teksti:active {
   text-decoration: underline;
   color:rgb(65, 65, 65);
+}
+
+.laivat {
+  display: flex;
+}
+
+.laivatpieni {
+  display: flex;
+  flex-direction: column;
 }
