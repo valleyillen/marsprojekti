@@ -1,7 +1,8 @@
 body {
   font-family: "Poppins";
-  background: rgb(237,19,158);
-  background: linear-gradient(180deg, rgba(237,19,158,1) 0%, rgba(249,125,214,1) 50%, rgba(254,222,242,1) 100%);
+  background: rgb(204,246,255);
+  background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63%, rgba(24,11,56,1) 85%);
+  
   margin: 10px;
 }
 
@@ -128,11 +129,3 @@ body {
   flex-direction: column;
 }
 
-.femboyfridayspecial {
-  padding: 10px;
-  display: flex;
-  background-color: lightpink;
-  color: rgb(116, 45, 57);
-  font-size: 40px;
-  font-weight: 800;
-}
