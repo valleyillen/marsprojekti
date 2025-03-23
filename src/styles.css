@@ -1,11 +1,15 @@
-body {
-  font-family: "Poppins";
-  background: rgb(204,246,255);
-  background: linear-gradient(0deg, rgba(204,246,255,1) 42%, rgba(12,109,153,1) 63%, rgba(24,11,56,1) 85%);
-  
-  margin: 10px;
-}
+@font-face {
+  font-family: 'Voga Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Voga Medium'), url('Voga-Medium.woff') format('woff');
+  }
 
+body {
+  font-family: 'Poppins';
+  background: #f8f3f2;
+  margin: 0;
+}
 
 .navigaatio {
   height: 55px;
@@ -59,6 +63,12 @@ body {
 
 .linkki-teksti:hover {
   text-decoration: underline;
+}
+
+.marsteksti {
+  color: white;
+  font-family: "Voga Medium";
+  font-size: 40px;
 }
 
 .foto {
