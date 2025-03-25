@@ -5,8 +5,32 @@
   src: local('Voga Medium'), url('Voga-Medium.woff') format('woff');
   }
 
+  @font-face {
+    font-family: 'Telegraf Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegraf Regular'), url('TelegrafRegular_272984568a25d8528fe2de8b20b29011.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Telegraf UltraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegraf UltraLight'), url('Telegraf UltraLight 200.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Telegraf UltraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegraf UltraBold'), url('Telegraf UltraBold 800.woff') format('woff');
+    }
+
 body {
-  font-family: 'Poppins';
+  font-family: 'Telegraf Regular';
+  font-weight: normal;
   background: #f8f3f2;
   margin: 0;
 }
@@ -24,7 +48,7 @@ body {
   right: 0;
   z-index: 100;
 
-  background-color: #180b38;
+  background-color: #d1947a;
 }
 
 .vasen-puoli {
@@ -54,21 +78,16 @@ body {
 }
 
 .linkki-teksti {
-  color: rgb(225, 226, 255);
-  font-family: "Oswald";
-  font-size: 18px;
+  color: #f8f3f2;
+  font-family: "Telegraf Regular";
+  font-weight: bold;
+  font-size: 16px;
   text-decoration: none;
   margin: 10px;
 }
 
 .linkki-teksti:hover {
   text-decoration: underline;
-}
-
-.marsteksti {
-  color: white;
-  font-family: "Voga Medium";
-  font-size: 40px;
 }
 
 .foto {
@@ -139,3 +158,23 @@ body {
   flex-direction: column;
 }
 
+.orangeheader {
+  font-family: 'Telegraf UltraBold';
+  font-size: 50px;
+  color: #d1947a;
+}
+
+.orangesubtext {
+  font-size: 30px;
+  color: #d1947a;
+  text-align: center;
+  line-height: 38px;
+}
+
+.whitevogaheader {
+  font-family: "Voga Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  color: #f8f3f2;
+}
